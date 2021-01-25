@@ -1,0 +1,5484 @@
+{
+  "Version": 77,
+  "Individuals": [
+    {
+      "Name": "Standard European Male for DDI",
+      "Seed": 345424277,
+      "OriginData": {
+        "CalculationMethods": [
+          "Body surface area - Mosteller",
+          "SurfaceAreaPlsInt_VAR1"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A5",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041810344828
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.1681034483
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.1620689655
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.5379310345
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A5"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.04,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00039687350455
+            },
+            {
+              "Name": "Gonads",
+              "Value": 4.5940341362E-05
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0018822778753
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0002131121391
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.1199553358
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2C9"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 3.84,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 104.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00029559748428
+            },
+            {
+              "Name": "Kidney",
+              "Value": 4.4025157233E-06
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 2.4947589099E-05
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP1A2"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.8,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 39.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "ABCB1",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "Description": "Version 1.1"
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "European_male_Granfors 2004",
+      "Seed": 5607937,
+      "Settings": {
+        "NumberOfIndividuals": 2000,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 21.0,
+          "Max": 31.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 65.0,
+          "Max": 83.0,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Standard European Male for DDI",
+          "Seed": 345424277,
+          "OriginData": {
+            "CalculationMethods": [
+              "Body surface area - Mosteller",
+              "SurfaceAreaPlsInt_VAR1"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 30.0,
+              "Unit": "year(s)"
+            }
+          },
+          "Molecules": [
+            {
+              "Name": "CYP3A4",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.0041682898325
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.00078691079081
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0053603428126
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.00042695753798
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0727697702
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0727697702
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP3A4"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 4.32,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 36.0,
+                  "Unit": "h",
+                  "ValueOrigin": {
+                    "Source": "Unknown"
+                  }
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "AADAC",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "BloodCells",
+                  "Value": 3.9102564103E-05
+                },
+                {
+                  "Name": "Plasma",
+                  "Value": 3.9102564103E-05
+                },
+                {
+                  "Name": "Bone",
+                  "Value": 4.8717948718E-05
+                },
+                {
+                  "Name": "Brain",
+                  "Value": 3.9743589744E-05
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.0011923076923
+                },
+                {
+                  "Name": "Heart",
+                  "Value": 0.0026602564103
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 5.7051282051E-05
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0269230769
+                },
+                {
+                  "Name": "Muscle",
+                  "Value": 0.00020833333333
+                },
+                {
+                  "Name": "Pancreas",
+                  "Value": 0.1474358974
+                },
+                {
+                  "Name": "Spleen",
+                  "Value": 0.00037115384615
+                },
+                {
+                  "Name": "Stomach",
+                  "Value": 0.0775641026
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.2544871795
+                },
+                {
+                  "Name": "LargeIntestine",
+                  "Value": 0.00010384615385
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.2544871795
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.2544871795
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.2544871795
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.2544871795
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.2544871795
+                },
+                {
+                  "Name": "ColonAscendens",
+                  "Value": 0.00010384615385
+                },
+                {
+                  "Name": "ColonTransversum",
+                  "Value": 0.00010384615385
+                },
+                {
+                  "Name": "ColonDescendens",
+                  "Value": 0.00010384615385
+                },
+                {
+                  "Name": "ColonSigmoid",
+                  "Value": 0.00010384615385
+                }
+              ],
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 1.0,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 36.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP3A5",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.0041810344828
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.1681034483
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.1620689655
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.5379310345
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.5379310345
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.5379310345
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.5379310345
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.5379310345
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.5379310345
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP3A5"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 0.04,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 36.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP2C9",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.00039687350455
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 4.5940341362E-05
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0018822778753
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0002131121391
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.1199553358
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.1199553358
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.1199553358
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.1199553358
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.1199553358
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.1199553358
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP2C9"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 3.84,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 104.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP1A2",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Gonads",
+                  "Value": 0.00029559748428
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 4.4025157233E-06
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 2.4947589099E-05
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP1A2"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 1.8,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 39.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "ABCB1",
+              "Type": "Transporter",
+              "TransportType": "Efflux",
+              "Expression": [
+                {
+                  "Name": "Bone",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.0341950646
+                },
+                {
+                  "Name": "Brain",
+                  "MembraneLocation": "BloodBrainBarrier",
+                  "Value": 0.1072855464
+                },
+                {
+                  "Name": "Gonads",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.024559342
+                },
+                {
+                  "Name": "Heart",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.059106933
+                },
+                {
+                  "Name": "Kidney",
+                  "MembraneLocation": "Apical",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Periportal",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.2702702703
+                },
+                {
+                  "Name": "Pericentral",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.2702702703
+                },
+                {
+                  "Name": "Lung",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.0927144536
+                },
+                {
+                  "Name": "Muscle",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.0180963572
+                },
+                {
+                  "Name": "Pancreas",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.0200940071
+                },
+                {
+                  "Name": "Spleen",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.1047003525
+                },
+                {
+                  "Name": "Stomach",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.0367802585
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.3960047004
+                },
+                {
+                  "Name": "LargeIntestine",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.1562867215
+                },
+                {
+                  "Name": "Duodenum",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.3960047004
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.3960047004
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.3960047004
+                },
+                {
+                  "Name": "UpperIleum",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.3960047004
+                },
+                {
+                  "Name": "LowerIleum",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.3960047004
+                },
+                {
+                  "Name": "ColonAscendens",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.1562867215
+                },
+                {
+                  "Name": "ColonTransversum",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.1562867215
+                },
+                {
+                  "Name": "ColonDescendens",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.1562867215
+                },
+                {
+                  "Name": "ColonSigmoid",
+                  "MembraneLocation": "Apical",
+                  "Value": 0.1562867215
+                }
+              ],
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 1.0,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 36.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "OATP1B1",
+              "Type": "Transporter",
+              "TransportType": "Influx",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "MembraneLocation": "BloodBrainBarrier",
+                  "Value": 0.00014166666667
+                },
+                {
+                  "Name": "Gonads",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.0141666667
+                },
+                {
+                  "Name": "Heart",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.0008253968254
+                },
+                {
+                  "Name": "Periportal",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 4.0079365079E-05
+                },
+                {
+                  "Name": "Muscle",
+                  "MembraneLocation": "Basolateral",
+                  "Value": 0.00064682539683
+                }
+              ],
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 1.0,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 36.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            }
+          ],
+          "Description": "Version 1.1"
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP3A4|Reference concentration",
+          "Seed": 5651218,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (liver)",
+          "Seed": 5651250,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 5651281,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 23.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A5|Reference concentration",
+          "Seed": 5651296,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.04,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A5|t1/2 (liver)",
+          "Seed": 5651328,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9|Reference concentration",
+          "Seed": 5651343,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 3.84,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9|t1/2 (liver)",
+          "Seed": 5651375,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 104.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2|Reference concentration",
+          "Seed": 5651390,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.8,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2|t1/2 (liver)",
+          "Seed": 5651421,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 39.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 24.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Tizanidine",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "LogP",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.4,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00697"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "fu_plasma",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.7,
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "SmPC tizanidine"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "S_aq",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.133,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00697"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank DB00697"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 7.49,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00697"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "CLint",
+          "Species": "Human",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 7.2862,
+              "Unit": "l/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Berezhkovskiy",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00697"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 253.711,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB00697"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Tizanidine tablet fasted",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 38.5287,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.963,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine tablet fed",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 3.7642,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.3881,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "PO_4mg_SD",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 4.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "PO_8mg_SD",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 8.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "PO_6mg_SD",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 6.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "PO_4mg_tid",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_8_8_8",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 4.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Name": "End time",
+          "Value": 102.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PO_2mg_SD",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 2.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "PO_4mg_day4",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 4.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 73.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Events": [
+    {
+      "Name": "High-fat breakfast",
+      "Template": "Meal: High-fat breakfast (Human)"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Tizanidine 2mg po tablet fed",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 6.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_2mg_SD|Tizanidine tablet fed|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_2mg_SD",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fed",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.009497637,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 2mg po tablet fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control",
+              "X": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control|Time",
+              "Y": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 2mg po tablet fed",
+          "Title": "Tizanidine 2mg po tablet fed",
+          "OriginText": "Tizanidine\nTizanidine 2mg po tablet fed\n2020-07-13 13:15"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 4mg po tablet fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control",
+        "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control",
+        "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers",
+        "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers",
+        "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_4mg_SD|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_4mg_SD",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.001,
+              "Max": 3.591087,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 4mg po tablet fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control",
+              "X": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control|Time",
+              "Y": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control",
+              "X": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control|Time",
+              "Y": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers",
+              "X": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers|Time",
+              "Y": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers",
+              "X": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers|Time",
+              "Y": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted",
+              "X": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted|Time",
+              "Y": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 4mg po tablet fasted",
+          "Title": "Tizanidine 4mg po tablet fasted",
+          "OriginText": "Tizanidine\nTizanidine 4mg po tablet fasted\n2020-07-13 13:27"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 4mg po tablet fed",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Henney2007.Tizanidine.4mg.po.sd.Tab_fed"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_4mg_SD|Tizanidine tablet fed|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_4mg_SD",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fed",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.01586522,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 4mg po tablet fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed",
+              "X": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed|Time",
+              "Y": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 4mg po tablet fed",
+          "Title": "Tizanidine 4mg po tablet fed",
+          "OriginText": "Tizanidine\nTizanidine 4mg po tablet fed\n2020-07-13 13:56"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 4mg po capsule fed",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Henney2007.Tizanidine.4mg.po.sd.Cap_fed"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_4mg_SD|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_4mg_SD",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.01054845,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 4mg po capsule fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed",
+              "X": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed|Time",
+              "Y": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 4mg po capsule fed",
+          "Title": "Tizanidine 4mg po capsule fed",
+          "OriginText": "Tizanidine\nTizanidine 4mg po capsule fed\n2020-07-13 13:58"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 4mg t.i.d. po tablet fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted",
+        "Schellenberger1999.Tizanidine.4mg.po.tid.Day3"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 115.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO_4mg_tid|Tizanidine tablet fasted|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_4mg_tid",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 3.27769,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 4mg t.i.d. po tablet fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted",
+              "X": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted|Time",
+              "Y": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3",
+              "X": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3|Time",
+              "Y": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 4mg tid po tablet fasted",
+          "Title": "Tizanidine 4mg tid po tablet fasted",
+          "OriginText": "Tizanidine\nTizanidine 4mg t.i.d. po tablet fasted\n2020-07-13 14:10"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 8mg po tablet fed",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_8mg_SD|Tizanidine tablet fed|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_8mg_SD",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fed",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 5.339806,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 8mg po tablet fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed",
+              "X": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed|Time",
+              "Y": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 8mg po tablet fed",
+          "Title": "Tizanidine 8mg po tablet fed",
+          "OriginText": "Tizanidine\nTizanidine 8mg po tablet fed\n2020-07-13 14:16"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 8mg po tablet fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 13.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_8mg_SD|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_8mg_SD",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 5.339806,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 8mg po tablet fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted",
+              "X": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted|Time",
+              "Y": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 8mg po tablet fasted",
+          "Title": "Tizanidine 8mg po tablet fasted",
+          "OriginText": "Tizanidine\nTizanidine 8mg po tablet fasted\n2020-07-13 14:25"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 8mg po capsule fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_8mg_SD|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_8mg_SD",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.02,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 8mg po capsule fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted",
+              "X": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted|Time",
+              "Y": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 8mg po capsule fasted",
+          "OriginText": "Tizanidine\nTizanidine 8mg po capsule fasted\n2020-07-13 15:21"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 8mg po capsule fed",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_8mg_SD|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_8mg_SD",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.02,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 8mg po capsule fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed",
+              "X": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed|Time",
+              "Y": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 8mg po capsule fed",
+          "Title": "Tizanidine 8mg po capsule fed",
+          "OriginText": "Tizanidine\nTizanidine 8mg po capsule fed\n2020-07-13 15:24"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 6mg po capsule fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 13.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_6mg_SD|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard European Male for DDI",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_6mg_SD",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 6mg po capsule fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted",
+              "X": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted|Time",
+              "Y": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 6mg po capsule fasted",
+          "Title": "Tizanidine 6mg po capsule fasted",
+          "OriginText": "Tizanidine\nTizanidine 6mg po capsule fasted\n2020-07-13 15:27"
+        }
+      ]
+    },
+    {
+      "Name": "Tizanidine 4mg po tablet fasted population",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control",
+        "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control",
+        "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers",
+        "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers",
+        "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted",
+        "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 83.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO_4mg_day4|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "European_male_Granfors 2004",
+      "Compounds": [
+        {
+          "Name": "Tizanidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP1A2-CLint",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO_4mg_day4",
+            "Formulations": [
+              {
+                "Name": "Tizanidine tablet fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Tizanidine simulated",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4",
+                "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Tizanidine\nTizanidine 4mg po tablet fasted population\n2020-07-13 17:26"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Schellenberger1999"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Schellenberger1999"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Schellenberger1999"
+        },
+        {
+          "Name": "Dose",
+          "Value": 4.0
+        },
+        {
+          "Name": "Day",
+          "Value": 3.0
+        },
+        {
+          "Name": "Schedule",
+          "Value": "tid"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-26T10:20:21.9684712+02:00",
+                "Source": "Data_extract_Tizanidine.Schellenberger1999 (Schedule = tid, Day = 3).SD",
+                "MolWeight": 253.711
+              },
+              "Values": [
+                0.00022035146,
+                0.00102170289,
+                0.0009949916,
+                0.00119529385,
+                0.00109515863,
+                0.00112186978,
+                0.00110180478,
+                0.00105517078,
+                0.000841370667,
+                0.000634359,
+                0.000407345564,
+                0.00020704334,
+                5.34381943E-05
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:20:21.9684712+02:00",
+            "Source": "Data_extract_Tizanidine.Schellenberger1999 (Schedule = tid, Day = 3).CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.126893952,
+            0.6541708,
+            1.32834339,
+            1.929092,
+            2.1825316,
+            2.02856255,
+            1.92804754,
+            1.6004082,
+            1.27938354,
+            0.924906433,
+            0.5431327,
+            0.140265375,
+            0.0445450172
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:20:21.9684712+02:00",
+          "Source": "Data_extract_Tizanidine.Schellenberger1999 (Schedule = tid, Day = 3).Time"
+        },
+        "Values": [
+          48.0,
+          48.2417068,
+          48.49763,
+          48.7251167,
+          49.0094757,
+          49.35071,
+          49.66351,
+          50.04739,
+          50.48815,
+          50.9857826,
+          52.0094757,
+          53.9857826,
+          55.9905243
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Shah2006"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Shah2006"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Shah2006"
+        },
+        {
+          "Name": "Dose",
+          "Value": 8.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "Tab_Fed"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:22:20.688497+02:00",
+            "Source": "Data_extract_Tizanidine.Shah2006.1.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            1.49514568,
+            3.91262126,
+            4.86407757,
+            5.339806,
+            5.28155327,
+            4.35922337,
+            3.34951472,
+            2.32038832,
+            0.9320388,
+            0.300970882,
+            0.155339792
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:22:20.688497+02:00",
+          "Source": "Data_extract_Tizanidine.Shah2006.1.Time"
+        },
+        "Values": [
+          0.2191781,
+          0.4109589,
+          0.7123288,
+          0.986301363,
+          1.479452,
+          2.05479455,
+          2.87671232,
+          4.027397,
+          5.972603,
+          7.972603,
+          10.0273981
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Shah2006"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Shah2006"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Shah2006"
+        },
+        {
+          "Name": "Dose",
+          "Value": 8.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "Tab_Fasted"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:22:20.688497+02:00",
+            "Source": "Data_extract_Tizanidine.Shah2006.2.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.4563107,
+            2.6601944,
+            4.32038832,
+            4.699029,
+            4.184466,
+            3.3300972,
+            1.57281554,
+            0.5631068,
+            0.223300979,
+            0.155339792
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:22:20.688497+02:00",
+          "Source": "Data_extract_Tizanidine.Shah2006.2.Time"
+        },
+        "Values": [
+          0.246575341,
+          0.465753436,
+          0.6849315,
+          0.986301363,
+          1.479452,
+          2.0,
+          3.91780829,
+          5.972603,
+          7.972603,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Shah2006"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Shah2006"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Shah2006"
+        },
+        {
+          "Name": "Dose",
+          "Value": 8.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "Cap_Fed"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:22:20.688497+02:00",
+            "Source": "Data_extract_Tizanidine.Shah2006.3.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            8.737864E-05,
+            0.000427184452,
+            0.0008932039,
+            0.00161165046,
+            0.002475728,
+            0.00367961172,
+            0.00399999972,
+            0.003291262,
+            0.0012912621,
+            0.000436893228,
+            0.0001553398
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:22:20.688497+02:00",
+          "Source": "Data_extract_Tizanidine.Shah2006.3.Time"
+        },
+        "Values": [
+          0.2739726,
+          0.493150681,
+          0.739726,
+          0.9315069,
+          1.50684929,
+          1.97260273,
+          2.98630142,
+          3.890411,
+          6.0,
+          8.0,
+          10.0547943
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Shah2006"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Shah2006"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Shah2006"
+        },
+        {
+          "Name": "Dose",
+          "Value": 8.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "Cap_Fasted"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:22:20.6895009+02:00",
+            "Source": "Data_extract_Tizanidine.Shah2006.4.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.000135922324,
+            0.00202912628,
+            0.003669903,
+            0.004553398,
+            0.004398058,
+            0.00358252437,
+            0.00242718449,
+            0.00176699029,
+            0.000757281552,
+            0.000339805818,
+            0.00016504855
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:22:20.6895009+02:00",
+          "Source": "Data_extract_Tizanidine.Shah2006.4.Time"
+        },
+        "Values": [
+          0.2739726,
+          0.493150681,
+          0.739726,
+          0.958904147,
+          1.479452,
+          1.97260273,
+          2.98630142,
+          3.91780829,
+          5.972603,
+          8.0,
+          10.0273981
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Henney2007"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Henney2007"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Henney2007"
+        },
+        {
+          "Name": "Gender",
+          "Value": "m12/f6"
+        },
+        {
+          "Name": "Dose",
+          "Value": 4.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Tablet"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:30:33.6355943+02:00",
+            "Source": "Data_extract_Tizanidine.Henney2007.1 (Formulation = Tablet).CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.00090647483,
+            0.003118705,
+            0.00402518,
+            0.00377697824,
+            0.00350719434,
+            0.00302158273,
+            0.00211510784,
+            0.00141366909,
+            0.000302158267,
+            9.71223053E-05,
+            4.31654662E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:30:33.6355943+02:00",
+          "Source": "Data_extract_Tizanidine.Henney2007.1 (Formulation = Tablet).Time"
+        },
+        "Values": [
+          0.203631118,
+          0.469977736,
+          0.696752548,
+          0.906322241,
+          1.50944543,
+          1.90538561,
+          2.92836976,
+          3.95029926,
+          5.96951628,
+          7.93778372,
+          9.974706
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Henney2007"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Henney2007"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Henney2007"
+        },
+        {
+          "Name": "Gender",
+          "Value": "m12/f6"
+        },
+        {
+          "Name": "Dose",
+          "Value": 4.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Capsule"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:30:33.6355943+02:00",
+            "Source": "Data_extract_Tizanidine.Henney2007.2 (Formulation = Capsule).CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.0,
+            9.71223053E-05,
+            0.000312949647,
+            0.000701438868,
+            0.00141366909,
+            0.00234172656,
+            0.002676259,
+            0.00211510784,
+            0.000766187033,
+            0.000291366916,
+            0.000118705029
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:30:33.6355943+02:00",
+          "Source": "Data_extract_Tizanidine.Henney2007.2 (Formulation = Capsule).Time"
+        },
+        "Values": [
+          0.1620058,
+          0.462374181,
+          0.692701042,
+          0.968427241,
+          1.45078146,
+          1.88573849,
+          2.9254837,
+          3.92354822,
+          5.92084265,
+          7.959929,
+          9.974318
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Henney2008"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Henney2008"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Henney2008"
+        },
+        {
+          "Name": "Dose",
+          "Value": 6.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:36:15.8163785+02:00",
+            "Source": "Data_extract_Tizanidine.Henney2008.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.0628481954,
+            2.855004,
+            4.91428137,
+            5.20463228,
+            4.77452946,
+            4.09170675,
+            2.71338534,
+            1.625717,
+            0.461119026,
+            0.09262876,
+            0.0147127882,
+            0.0126353791
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:36:15.8163785+02:00",
+          "Source": "Data_extract_Tizanidine.Henney2008.Time"
+        },
+        "Values": [
+          0.312174827,
+          0.5619147,
+          0.836628556,
+          1.08636832,
+          1.5608741,
+          2.04786682,
+          3.0593133,
+          4.033299,
+          6.06867838,
+          8.029136,
+          10.0270548,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Backman2008"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Backman2008"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Backman2008"
+        },
+        {
+          "Name": "Dose",
+          "Value": 4.0
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "male-nonsmokers"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-26T10:39:47.8853849+02:00",
+                "Source": "Data_extract_Tizanidine.Backman2008.1.SD",
+                "MolWeight": 253.711
+              },
+              "Values": [
+                0.000322862965,
+                0.0007341864,
+                0.000756285037,
+                0.0008097582,
+                0.000711178931,
+                0.0005773928,
+                0.0003802343,
+                0.000225324009,
+                8.44965E-05,
+                3.519944E-05
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:39:47.8853849+02:00",
+            "Source": "Data_extract_Tizanidine.Backman2008.1.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.329896927,
+            1.07216489,
+            1.31958771,
+            1.27448153,
+            1.10548842,
+            0.8027094,
+            0.492888838,
+            0.2816476,
+            0.105613194,
+            0.0351994373
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:39:47.8853849+02:00",
+          "Source": "Data_extract_Tizanidine.Backman2008.1.Time"
+        },
+        "Values": [
+          0.371134,
+          0.68523407,
+          1.03046858,
+          1.50386763,
+          2.01649237,
+          3.00491953,
+          3.9934094,
+          4.999275,
+          6.99055767,
+          8.980899
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Backman2008"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Backman2008"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Backman2008"
+        },
+        {
+          "Name": "Dose",
+          "Value": 4.0
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "female-nonsmokers"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-26T10:39:47.8853849+02:00",
+                "Source": "Data_extract_Tizanidine.Backman2008.2.SD",
+                "MolWeight": 253.711
+              },
+              "Values": [
+                0.000352061325,
+                0.00145755732,
+                0.00173217093,
+                0.00179554324,
+                0.00154909515,
+                0.00109140575,
+                0.000640757731,
+                0.000373185467,
+                0.000147861443,
+                3.519944E-05
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:39:47.8853849+02:00",
+            "Source": "Data_extract_Tizanidine.Backman2008.2.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.352061331,
+            1.45755732,
+            1.73217094,
+            1.79554331,
+            1.54909515,
+            1.09140575,
+            0.64075774,
+            0.373185456,
+            0.147861451,
+            0.0351994373
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:39:47.8853849+02:00",
+          "Source": "Data_extract_Tizanidine.Backman2008.2.Time"
+        },
+        "Values": [
+          0.3438128,
+          0.680795133,
+          1.04343379,
+          1.48097146,
+          1.99428606,
+          3.020602,
+          4.01034641,
+          4.99846,
+          6.97192669,
+          8.980899
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Backman2006"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Backman2006"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Beckman2006"
+        },
+        {
+          "Name": "Dose",
+          "Value": 4.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "Control"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-26T10:58:06.4731115+02:00",
+                "Source": "Data_extract_Tizanidine.Backman2006.1.SD",
+                "MolWeight": 253.711
+              },
+              "Values": [
+                "NaN",
+                0.000288207346,
+                0.000812489,
+                0.0008432502,
+                0.00115175638,
+                0.00115184579,
+                0.0007919219,
+                0.000452565117,
+                0.000246894371,
+                0.000102745966,
+                6.161181E-05
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T10:58:06.4731115+02:00",
+            "Source": "Data_extract_Tizanidine.Backman2006.1.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.0,
+            0.326947272,
+            1.24665272,
+            1.46719074,
+            1.541024,
+            1.42299259,
+            0.9332787,
+            0.498875946,
+            0.2758494,
+            0.09648366,
+            0.0308792964
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T10:58:06.4731115+02:00",
+          "Source": "Data_extract_Tizanidine.Backman2006.1.Time"
+        },
+        "Values": [
+          0.0,
+          0.3478405,
+          0.674593866,
+          0.990924835,
+          1.49885774,
+          2.00393057,
+          3.01029515,
+          4.0025773,
+          4.99801,
+          6.97794533,
+          8.98939
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Tse1987"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tse1987"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Tse1987"
+        },
+        {
+          "Name": "Dose",
+          "Value": 4.0
+        },
+        {
+          "Name": "Schedule",
+          "Value": "tid"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-26T12:14:52.7417155+02:00",
+                "Source": "Data_extract_Tizanidine.Tse1987 (Schedule = tid).SD",
+                "MolWeight": 253.711
+              },
+              "Values": [
+                0.0,
+                0.000140625,
+                0.00021875,
+                0.000203125,
+                0.000171875,
+                0.00015625,
+                0.000140625,
+                0.000249999983,
+                0.000203125,
+                0.001640625,
+                "NaN",
+                0.002078125,
+                0.00121875,
+                0.00059375,
+                0.0003125,
+                0.00015625,
+                0.000124999991
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T12:14:52.7417155+02:00",
+            "Source": "Data_extract_Tizanidine.Tse1987 (Schedule = tid).CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.0,
+            0.265625,
+            0.1875,
+            0.328125,
+            0.21875,
+            0.203125,
+            0.375,
+            0.421875,
+            0.3125,
+            2.890625,
+            5.640625,
+            2.640625,
+            1.71875,
+            1.078125,
+            0.65625,
+            0.234374985,
+            0.140625
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T12:14:52.7417155+02:00",
+          "Source": "Data_extract_Tizanidine.Tse1987 (Schedule = tid).Time"
+        },
+        "Values": [
+          0.0,
+          8.0,
+          16.0,
+          24.0,
+          32.0,
+          40.0,
+          48.0,
+          72.0,
+          96.0,
+          96.5,
+          97.0,
+          98.0,
+          99.0,
+          100.0,
+          102.0,
+          104.0,
+          108.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Al-Ghazawi2013"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Al-Ghazawi2013"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Al-Ghazawi2013"
+        },
+        {
+          "Name": "Dose",
+          "Value": 4.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-26T12:17:52.780521+02:00",
+                "Source": "Data_extract_Tizanidine.Al-Ghazawi2013.SD",
+                "MolWeight": 253.711
+              },
+              "Values": [
+                0.0006332611,
+                0.00117290963,
+                0.001106821,
+                0.0007819444,
+                0.000710344466,
+                0.000484587043,
+                0.0005010976,
+                0.000440515461,
+                0.0003854586,
+                0.000275326223,
+                0.0001927363,
+                7.70833358E-05,
+                5.505686E-05
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T12:17:52.780521+02:00",
+            "Source": "Data_extract_Tizanidine.Al-Ghazawi2013.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.473396659,
+            0.9743264,
+            1.05675781,
+            0.8913774,
+            0.8801916,
+            0.7423537,
+            0.659586549,
+            0.604352534,
+            0.493870437,
+            0.35035333,
+            0.239530891,
+            0.188605174,
+            0.170705155
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T12:17:52.780521+02:00",
+          "Source": "Data_extract_Tizanidine.Al-Ghazawi2013.Time"
+        },
+        "Values": [
+          0.241220653,
+          0.490498424,
+          0.7341362,
+          0.9987672,
+          1.24943244,
+          1.50044107,
+          1.74452651,
+          1.98853731,
+          2.49688053,
+          2.99853969,
+          4.00138,
+          5.98627663,
+          7.991406
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Granfors2004"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Granfors2004"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Granfors2004"
+        },
+        {
+          "Name": "Dose",
+          "Value": 4.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "control"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-26T13:02:01.0659453+02:00",
+                "Source": "Data_extract_Tizanidine.Granfors2004.1.SD",
+                "MolWeight": 253.711
+              },
+              "Values": [
+                0.0006076555,
+                0.00122911762,
+                0.0008733998,
+                0.0007645555,
+                0.0006766109,
+                0.000545878371,
+                0.0003652427,
+                0.000175102745,
+                6.637514E-05,
+                2.264177E-05
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T13:02:01.0659453+02:00",
+            "Source": "Data_extract_Tizanidine.Granfors2004.1.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.5701218,
+            1.809891,
+            1.94940221,
+            1.706766,
+            1.585398,
+            1.16240954,
+            0.8152587,
+            0.4315488,
+            0.155536056,
+            0.0505387224
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T13:02:01.0659453+02:00",
+          "Source": "Data_extract_Tizanidine.Granfors2004.1.Time"
+        },
+        "Values": [
+          0.3575043,
+          0.6449488,
+          0.998281658,
+          1.55932927,
+          2.002062,
+          3.00650573,
+          4.040718,
+          5.01776361,
+          6.99972725,
+          9.011839
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Tizanidine.xlsx.Momo2010"
+        },
+        {
+          "Name": "File",
+          "Value": "Data_extract_Tizanidine"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Momo2010"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Momo2010"
+        },
+        {
+          "Name": "Dose",
+          "Value": 2.0
+        },
+        {
+          "Name": "Route",
+          "Value": "po"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "control"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-09-26T13:17:44.556522+02:00",
+                "Source": "Data_extract_Tizanidine.Momo2010.1.SD",
+                "MolWeight": 253.711
+              },
+              "Values": [
+                0.0,
+                0.0009535808,
+                0.000905037,
+                0.000937300152,
+                0.0004849009,
+                0.000242420632
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure",
+            "Path": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T13:17:44.556522+02:00",
+            "Source": "Data_extract_Tizanidine.Momo2010.1.CentralMeasure",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.0,
+            0.00115872885,
+            0.00141409051,
+            0.00147235487,
+            0.0008840451,
+            0.000321736617
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T13:17:44.556522+02:00",
+          "Source": "Data_extract_Tizanidine.Momo2010.1.Time"
+        },
+        "Values": [
+          0.0,
+          0.483387619,
+          0.982131541,
+          1.96935081,
+          2.973529,
+          4.955627
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.xlsx.Granfors2004.Tizanidine.4mg.p"
+        },
+        {
+          "Name": "File",
+          "Value": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Granfors2004.Tizanidine.4mg.p"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tizanidine"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "CentralMeasure ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-10-09T09:17:17.6617057+02:00",
+                "Source": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.Granfors2004.Tizanidine.4mg.p.SD [ng/ml]",
+                "MolWeight": 253.711
+              },
+              "Values": [
+                0.0006076555,
+                0.00122911762,
+                0.0008733998,
+                0.0007645555,
+                0.0006766109,
+                0.000545878371,
+                0.0003652427,
+                0.000175102745,
+                6.637514E-05,
+                2.264177E-05
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "CentralMeasure ",
+            "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-10-09T09:17:17.6617057+02:00",
+            "Source": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.Granfors2004.Tizanidine.4mg.p.CentralMeasure [ng/ml]",
+            "MolWeight": 253.711
+          },
+          "Values": [
+            0.000570121862,
+            0.001809891,
+            0.00194940215,
+            0.00170676608,
+            0.00158539787,
+            0.00116240955,
+            0.0008152587,
+            0.0004315488,
+            0.00015553605,
+            5.053872E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-10-09T09:17:17.6617057+02:00",
+          "Source": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.Granfors2004.Tizanidine.4mg.p.Time [h]"
+        },
+        "Values": [
+          73.3575058,
+          73.64494,
+          73.99828,
+          74.5593262,
+          75.00206,
+          76.0065,
+          77.04072,
+          78.01777,
+          79.9997253,
+          82.01184
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Tablet",
+      "Classifiables": [
+        "Tizanidine 2mg po tablet fed",
+        "Tizanidine 4mg po tablet fasted",
+        "Tizanidine 4mg po tablet fed",
+        "Tizanidine 4mg t.i.d. po tablet fasted",
+        "Tizanidine 8mg po tablet fed",
+        "Tizanidine 8mg po tablet fasted"
+      ]
+    },
+    {
+      "Name": "Capsule",
+      "Classifiables": [
+        "Tizanidine 4mg po capsule fed",
+        "Tizanidine 8mg po capsule fasted",
+        "Tizanidine 8mg po capsule fed",
+        "Tizanidine 6mg po capsule fasted"
+      ]
+    }
+  ]
+}

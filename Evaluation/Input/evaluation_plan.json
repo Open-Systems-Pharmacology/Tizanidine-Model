@@ -1,0 +1,418 @@
+{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Tizanidine",
+            "Path": "../Tizanidine-Model.json",
+            "BuildingBlocks": [],
+            "SimulationParameters": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "AxesSettings": {
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "ComparisonTimeProfile": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Type": "X",
+                    "Dimension": "Age",
+                    "Unit": "year(s)",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AllPlots": [
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 2mg po tablet fed",
+                "SectionId": 331
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 4mg po tablet fasted",
+                "SectionId": 331
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 4mg po capsule fed",
+                "SectionId": 331
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 4mg po tablet fed",
+                "SectionId": 331
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 4mg t.i.d. po tablet fasted",
+                "SectionId": 332
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 6mg po capsule fasted",
+                "SectionId": 332
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 8mg po capsule fasted",
+                "SectionId": 332
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 8mg po tablet fasted",
+                "SectionId": 332
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 8mg po capsule fed",
+                "SectionId": 332
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 8mg po tablet fed",
+                "SectionId": 332
+            },
+            {
+                "Project": "Tizanidine",
+                "Simulation": "Tizanidine 4mg po tablet fasted population",
+                "SectionId": 332
+            }
+
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "Tizanidine concentration in plasma",
+                "SectionId": 32,
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotType": "predictedVsObserved|residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "Oral administration (model building)",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 2mg po tablet fed",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 4mg po tablet fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 4mg po tablet fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 4mg po tablet fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 4mg po tablet fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 4mg po tablet fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 4mg po tablet fed",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 4mg po capsule fed",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed",
+                                "Color": "#00ffbf"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Oral administration (model validation)",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 4mg t.i.d. po tablet fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 8mg po tablet fed",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 8mg po tablet fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 8mg po capsule fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 8mg po capsule fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 6mg po capsule fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Tizanidine",
+                                "Simulation": "Tizanidine 4mg t.i.d. po tablet fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted",
+                                "Color": "#008000"
+                            }
+                        ]
+                    }
+                ]
+            }            
+        ],
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
+    },
+    "Inputs": [
+        {
+            "Project": "Tizanidine",
+            "Name": "Tizanidine",
+            "Type": "Compound",
+            "SectionId": 31
+        },
+        {
+            "Project": "Tizanidine",
+            "Name": "Tizanidine tablet fasted",
+            "Type": "Formulation",
+            "SectionId": 31
+        },
+        {
+            "Project": "Tizanidine",
+            "Name": "Tizanidine tablet fed",
+            "Type": "Formulation",
+            "SectionId": 31
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Title": "2.1 Modeling Strategy",
+                    "Content": "Content/Section2.1_Modeling_Strategy.md"
+                },
+                {
+                    "Id": 22,
+                    "Title": "2.2 Data",
+                    "Content": "Content/Section2.2_Data.md"
+                },
+                {
+                    "Id": 23,
+                    "Title": "2.3 Model Parameters and Assumptions",
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Title": "3 Results and Discussion",
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Sections": [
+                {
+                    "Id": 31,
+                    "Title": "3.1 Final input parameters",
+                    "Content": "Content/Input_table.md"
+                },
+                {
+                    "Id": 32,
+                    "Title": "3.2 Diagnostics Plots",
+                    "Content": "Content/GOF_diagnostics.md"
+                },
+                {
+                    "Id": 33,
+                    "Title": "3.3 Concentration-Time Profiles",
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Sections": [
+                        {
+                            "Id": 331,
+                            "Title": "3.3.1 Model Building",
+                            "Content": "Content/Concentration_time_profiles_building.md"
+                        },
+                        {
+                            "Id": 332,
+                            "Title": "3.3.2 Model Verification",
+                            "Content": "Content/Concentration_time_profiles_verification.md"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Title": "4 Conclusion",
+            "Content": "Content/Section4_Conclusion.md"
+        },
+        {
+            "Id": 5,
+            "Title": "5 References",
+            "Content": "Content/References.md"
+        },
+        {
+            "Id": 6,
+            "Title": "6 Glossary",
+            "Content": "Content/glossary.md"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}

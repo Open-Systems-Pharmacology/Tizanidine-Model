@@ -30,4 +30,4 @@ A literature search was performed to collect available clinical data on tizanidi
 | [Tse 1987](#5-references)            | 4 t.i.d.                        | HV       | 21-48                     | 57-86                       | m       | 6     | Tablet           | Fasted        | |
 | [Al-Ghazawi 2013](#5-references)<sup>+</sup> | 4                               | HV       | 28                        | 75                          | m       | 36    | Tablet           | Fasted        | |
 
-**Table 2:**<a name="table-2"></a> Literature sources of clinical concentration data of tizanidine sused for model development and validation.  *\*: single dose unless otherwise specified; EM: extensive metabolizers;<sup>+</sup>: Data used for final parameter identification*
+**Table 2:**<a name="table-2"></a> Literature sources of clinical concentration data of tizanidine used for model development and validation.  *\*: single dose unless otherwise specified; EM: extensive metabolizers;<sup>+</sup>: Data used for final parameter identification*

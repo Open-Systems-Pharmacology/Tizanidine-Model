@@ -1,6 +1,6 @@
 ### 2.2.1 In vitro and physico-chemical data
 
-A literature search was performed to collect available information on physico-chemical properties of tizanidine ([Table 1](#Table 1)).
+A literature search was performed to collect available information on physico-chemical properties of tizanidine ([Table 1](#table-1)).
 
 | **Parameter**                   | **Unit**  | **Value**        | Source                            | **Description**                 |
 | :------------------------------ | --------- | ---------------- | --------------------------------- | ------------------------------- |
@@ -11,11 +11,11 @@ A literature search was performed to collect available information on physico-ch
 | fu<sup>+</sup>                  | %         | 70               | [SmPC tizanidine](#5-references)  | Fraction unbound in plasma      |
 | Intrinsic CL                    | ml/min/kg | 17               | [Granfors 2004](#5-references)    | Predicted from microsomal assay |
 
-**Table 1:**<a name="Table 1"></a> Physico-chemical and *in-vitro* metabolization properties of tizanidine extracted from literature. *<sup>+</sup>: Value used in final model*
+**Table 1:**<a name="table-1"></a> Physico-chemical and *in-vitro* metabolization properties of tizanidine extracted from literature. *<sup>+</sup>: Value used in final model*
 
 ### 2.2.2 Clinical data
 
-A literature search was performed to collect available clinical data on tizanidine ([Table 2](#Table 2)).
+A literature search was performed to collect available clinical data on tizanidine ([Table 2](#table-2)).
 
 | **Source**           | **Dose [mg]/**  **Schedule \*** | **Pop.**     | Age [yrs] (mean or range) | Weight [kg] (mean or range) | **Sex** | **N** | **Form.** | Fasted or Fed | **Comment**                       |
 | -------------------- | ------------------------------- | ------------ | ------- | ----- | --------- | --------------------------------- | --------------------------------- | --------------------------------- | -------------------- |
@@ -30,4 +30,4 @@ A literature search was performed to collect available clinical data on tizanidi
 | [Tse 1987](#5-references)            | 4 t.i.d.                        | HV       | 21-48                     | 57-86                       | m       | 6     | Tablet           | Fasted        | |
 | [Al-Ghazawi 2013](#5-references)<sup>+</sup> | 4                               | HV       | 28                        | 75                          | m       | 36    | Tablet           | Fasted        | |
 
-**Table 2:**<a name="Table 2"></a> Literature sources of clinical concentration data of tizanidine sused for model development and validation.  *\*: single dose unless otherwise specified; EM: extensive metabolizers;<sup>+</sup>: Data used for final parameter identification*
+**Table 2:**<a name="table-2"></a> Literature sources of clinical concentration data of tizanidine used for model development and validation.  *\*: single dose unless otherwise specified; EM: extensive metabolizers;<sup>+</sup>: Data used for final parameter identification*

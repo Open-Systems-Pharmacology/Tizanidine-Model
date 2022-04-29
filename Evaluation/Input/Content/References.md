@@ -1,4 +1,4 @@
-**Al-Ghazawi 2013 ** Al-Ghazawi M, Alzoubi M, Faidi B. Pharmacokinetic comparison of two 4 mg tablet formulations of tizanidine. Int Journal of Clinical Pharmacology and Therapeutics. 2013 Mar 1;51(03):255–63.
+**Al-Ghazawi 2013** Al-Ghazawi M, Alzoubi M, Faidi B. Pharmacokinetic comparison of two 4 mg tablet formulations of tizanidine. Int Journal of Clinical Pharmacology and Therapeutics. 2013 Mar 1;51(03):255–63.
 
 **Backman 2006** Backman JT, Granfors MT, Neuvonen PJ. Rifampicin is only a weak inducer of CYP1A2-mediated presystemic and systemic metabolism: Studies with tizanidine and caffeine. Eur J Clin Pharmacol. 2006;62(6):451-461. 
 
@@ -26,7 +26,7 @@
 
 **Shah 2006** Shah J, Wesnes KA, Kovelesky RA, Henney HR. Effects of food on the single-dose pharmacokinetics/pharmacodynamics of tizanidine capsules and tablets in healthy volunteers. Clin Ther. 2006;28(9):1308-1317. 
 
-**SmPC tizanidine** Zanaflex prescribing information. Website: accessdata.fda.gov/drugsatfda_docs/label/2006/020397s021,021447s002lbl.pdf, 2006, Acorda Therapeutics Inc
+**SmPC tizanidine** Zanaflex prescribing information. Website: https://www.accessdata.fda.gov/drugsatfda_docs/label/2006/020397s021,021447s002lbl.pdf , 2006, Acorda Therapeutics Inc
 
 **Tse 1987** Tse FLS, Jaffe JM, Bhuta S. Pharmacokinetics Of Orally Administered Tizanidine In Healthy Volunteers. Fundamental & Clinical Pharmacology. 1987 Nov 12;1(6):479–88.
 

@@ -11163,6 +11163,7 @@
             ]
           },
           "XAxisSettings": {
+            "Min": 72.5,
             "AutoRange": false
           },
           "YAxisSettings": {

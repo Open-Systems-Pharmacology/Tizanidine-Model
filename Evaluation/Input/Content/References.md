@@ -8,7 +8,7 @@
 
 **Granfors 2004** Granfors MT, Backman JT, Laitila J, Neuvonen PJ. Tizanidine is mainly metabolized by cytochrome P450 1A2 in vitro: Tizanidine is mainly metabolized by cytochrome P450 IA2 in vitro. British Journal of Clinical Pharmacology. 2004 Jan 8;57(3):349–53.
 
-**Haezlewood 1983** Heazlewood V, Symoniw P, Maruff P, Eadie M. Tizanidine- Initial pharmacokinetic studies in patients with spasticity. Eur J Clin Pharmacol. 1983; 25:65-67.
+**Heazlewood 1983** Heazlewood V, Symoniw P, Maruff P, Eadie M. Tizanidine- Initial pharmacokinetic studies in patients with spasticity. Eur J Clin Pharmacol. 1983; 25:65-67.
 
 **Henney 2007** Henney HR, Shah J. Relative bioavailability of tizanidine 4-mg capsule and tablet formulations after a standardized high-fat meal: A single-dose, randomized, open-label, crossover study in healthy subjects. Clin Ther. 2007;29(4):661-669.
 
